@@ -241,9 +241,9 @@
 	0%, 100%
 		{transform: translateX(0)}
 	3%
-		{transform: translateX(11) }
+		{transform: translateX(100) }
 	5%
-		{transform: translateX(-5)}
+		{transform: translateX(-200)}
 	6%
 		{transform: translateX(0)}
   }
@@ -252,9 +252,9 @@
 	0%,100%
   {transform: translateX(0)}
 	2%
-  {transform: translateX(5)}
+  {transform: translateX(-100)}
 	4%
-  {transform: translateX(-11) }
+  {transform: translateX(200) }
 	6%
   {transform: translateX(0)}
 
