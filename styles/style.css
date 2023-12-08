@@ -71,9 +71,9 @@
 .theme-menu__list {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 14px;
   padding-block-start: 5px;
+  margin-inline-start: 20px;
 }
 
 .theme-menu__item {
@@ -128,6 +128,9 @@
 .theme-menu__button::after {
   content: '';
     display: block;
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-end: 0;
     width: 0%;
     height: 2px;
     background-color: var(--accent-color);
